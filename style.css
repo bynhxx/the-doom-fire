@@ -1,3 +1,49 @@
+*{
+    box-sizing: border-box;
+    padding: 0; 
+    margin: 0; 
+}
+
+body{
+    background-color: red;
+}
+
+.container{
+    background-color: blueviolet;
+    width: 100%;
+    height: 100vh;
+    background-image: url(/doombg.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+}
+
+header{
+    height: 140px;
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+img{
+    width: 300px;
+    filter: contrast(120%);
+}
+
+.box{
+    width: 50%;
+    align-self: center;
+    margin-top: 100px;
+    height: auto;
+    display: flex;
+    justify-content: center;
+}
+
+/* === */ 
+
 table { 
     border-collapse: collapse;
     border: 1px solid black; 
